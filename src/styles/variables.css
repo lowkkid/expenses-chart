@@ -1,0 +1,13 @@
+:root {
+  --bar-color: hsl(10, 79%, 65%);
+  --selected-bar-color: hsl(10, 79%, 75%);
+  --max-bar-color: hsl(186, 34%, 65%);
+  --selected-max-bar-color: hsl(186, 34%, 75%);
+
+  --main-background: hsl(26, 66%, 93%);
+  --dark-brown: hsl(25, 47%, 15%);
+
+  --border-radius: 25px;
+  --main-containers-paddings: clamp(1.5625rem, 5vw, 2.5rem);
+  --main-containers-width: min(100% - 20px, 37.5rem);
+}

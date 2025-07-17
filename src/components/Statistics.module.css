@@ -1,0 +1,35 @@
+.statisticsCard {
+  background-color: transparent;
+  color: var(--dark-brown);
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  font-size: clamp(1rem, 2.5vw, 1.25rem);
+  font-weight: 300;
+}
+
+.totalWeekSection {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  align-items: flex-start;
+}
+
+.totalWeekValue {
+  font-size: clamp(2.25rem, 7vw, 3.5rem);
+  font-weight: 700;
+}
+
+.lastWeekCompareValue {
+  font-weight: 700;
+}
+
+.lastWeekCompareSection {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  align-items: flex-end;
+}

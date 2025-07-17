@@ -1,0 +1,28 @@
+.balanceCard {
+  background-color: var(--bar-color);
+  color: white;
+  width: var(--main-containers-width);
+  height: 120px;
+  border-radius: var(--border-radius);
+  padding: var(--main-containers-paddings);
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.balanceInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+}
+
+.balanceLabel {
+  font-size: 18px;
+}
+
+.balanceValue {
+  font-size: 30px;
+  font-weight: 700;
+}

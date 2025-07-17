@@ -1,0 +1,33 @@
+.chart {
+  background-color: white;
+  width: var(--main-containers-width);
+  height: clamp(33rem, 75vw, 35rem);
+  border-radius: var(--border-radius);
+  padding: var(--main-containers-paddings);
+}
+
+.chartHeader {
+  margin: 0;
+}
+
+.customTooltip {
+  background-color: var(--dark-brown);
+  color: white;
+  font-size: 1.25rem;
+  font-weight: 700;
+  padding: 5px;
+  border-radius: 5px;
+  white-space: nowrap;
+}
+
+.chart .recharts-layer .recharts-bar-rectangle {
+  cursor: pointer;
+}
+
+hr {
+  border: none;
+  height: 2px;
+  background-color: var(--main-background);
+  margin-top: clamp(1rem, 3vw, 1.5625rem);
+  margin-bottom: clamp(1rem, 3vw, 1.5625rem);
+}
