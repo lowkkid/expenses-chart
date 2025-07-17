@@ -20,5 +20,5 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution]([https://your-solution-url.com](https://www.frontendmentor.io/solutions/expenses-chart-with-react-and-recharts-QMH8SiVHVg)
+- Solution URL: [Solution](https://www.frontendmentor.io/solutions/expenses-chart-with-react-and-recharts-QMH8SiVHVg)
 - Live Site URL: [GitHub Pages](https://lowkkid.github.io/expenses-chart/)
